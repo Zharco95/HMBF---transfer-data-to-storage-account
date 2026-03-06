@@ -1,0 +1,98 @@
+.download-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(135deg, #0f2027 0%, #2c5364 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.download-card {
+  background: #181f2a;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 340px;
+  max-width: 90vw;
+}
+.icon-circle {
+  background: linear-gradient(135deg, #00eaff 0%, #005bea 100%);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 16px #00eaff44;
+}
+h2 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.subtitle {
+  color: #b0c4d6;
+  margin-bottom: 2rem;
+  font-size: 1.05em;
+  text-align: center;
+}
+.tech-btn {
+  background: linear-gradient(90deg, #00eaff 0%, #005bea 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.9em 2.2em;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 8px #00eaff33;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.tech-btn:hover {
+  background: linear-gradient(90deg, #005bea 0%, #00eaff 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+.jwt-token {
+  margin-top: 2rem;
+  background: #232b3b;
+  color: #00eaff;
+  border-radius: 8px;
+  padding: 1em;
+  width: 100%;
+  max-width: 420px;
+  word-break: break-all;
+  font-size: 0.95em;
+  box-shadow: 0 2px 8px #00eaff22;
+}
+.jwt-token span {
+  color: #b0c4d6;
+  font-size: 0.95em;
+}
+.jwt-token pre {
+  margin: 0.5em 0 0 0;
+  color: #00eaff;
+  background: none;
+  border: none;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  font-size: 0.93em;
+  white-space: pre-wrap;
+}
